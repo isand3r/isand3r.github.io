@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Footer from './components/Footer'
+import Body from './components/Body'
+import Disclaimer from './components/Disclaimer'
 
 const App = () => {
-  return(
-    <div className='ui one column centered grid'>
-      <div className='ui large header centered row'>Under Contruction :)</div>
+  return (
+    <div>
+      <Body />
+      <div className='ui vertical placeholder segment center aligned'>Under Construction</div>
+      <Footer />
+      <Disclaimer />
     </div>
   )
 }
