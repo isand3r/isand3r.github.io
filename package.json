@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
+    "start": "open index.html",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -21,8 +20,7 @@
   "homepage": "https://isand3r.github.io",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-dom": "^16.13.1"
   },
   "browserslist": {
     "production": [
@@ -37,8 +35,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
 }
