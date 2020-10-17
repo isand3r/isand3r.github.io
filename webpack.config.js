@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: 'bundle.js'
   },
+  externals: [
+    '/^\@material\-ui\/core\/.*/'
+  ],
   module: {
     rules: [
       {

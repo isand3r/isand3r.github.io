@@ -1,9 +1,17 @@
 import React from 'react'
+import { BottomNavigation, BottomNavigationAction, Typography } from '@material-ui/core'
+import LinkedIn from '@material-ui/icons/LinkedIn'
+import GitHub from '@material-ui/icons/GitHub'
+
 
 export default function Footer () {
   return (
-    <div className='ui segment secondary center aligned'>
-        This site uses Javascript but I will never track you, check out <a href='https://github.com/isand3r/isand3r.github.io'>the source code.</a>
-    </div>
+    <BottomNavigation style={{width: '100%', position: 'fixed', bottom: 0}}>
+      <BottomNavigationAction>
+        <Typography style={{ fontStyle: 'italic', fontSize: '10'}}>This site uses javascript but will never track you.</Typography>
+      </BottomNavigationAction>
+      <BottomNavigationAction label="Github" icon={<a style={{color: 'blue'}} href="https://github.com/isand3r"><GitHub /></a>} />
+      <BottomNavigationAction label="LinkedIn" icon={<a style={{color: 'blue'}} href="https://www.linkedin.com/in/isaiah-thiessen"><LinkedIn /></a>} />
+    </BottomNavigation>
   )
 }

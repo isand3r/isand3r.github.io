@@ -1,16 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Footer from './components/Footer'
-import Body from './components/Body'
+import Blog from './components/Blog'
 
 const App = () => {
   return (
-    <div>
-      <Body />
-      <div style={{ position: 'fixed', bottom: '0px', width: '100%' }}>
-        <Footer />
-      </div>
-    </div>
+    <Blog/>
   )
 }
 
