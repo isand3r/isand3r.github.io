@@ -9,8 +9,8 @@ It only took me a couple minutes to decide to back it. Feb 1st feels a long way 
     date: 'July 31, 2020'
   },
   {
-    title: '(Coming Soon) Generating Dataflow templates with Google Cloud Build',
-    body: <div> A problem that recently came across my desk was how to automate generating Google Dataflow job templates using Cloud Build - the alternative being manually running scripts in cloud shell.</div>,
+    title: '(Coming Soon) Dataflow templates & Google Cloud Build',
+    body: <div> A problem that came across my desk recently was how to automate generating & deploying Dataflow job templates using Cloud Build - the alternative being manually running scripts in cloud shell. My next post will explore the solution I came up with.</div>,
     date: 'tbd'
   }
 ]
