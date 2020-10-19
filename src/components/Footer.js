@@ -3,7 +3,6 @@ import { BottomNavigation, BottomNavigationAction, Typography } from '@material-
 import LinkedIn from '@material-ui/icons/LinkedIn'
 import GitHub from '@material-ui/icons/GitHub'
 
-
 export default function Footer () {
   return (
     <div style={{width: '100%', position: 'fixed', bottom: 0}}>
