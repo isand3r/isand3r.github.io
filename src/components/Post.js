@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     flexShrink: 0
   },
   secondaryHeading: {
-    fontSize: '1.8rem',
+    fontSize: '1.5rem',
     color: theme.palette.text.secondary,
   },
   paragraph: {
