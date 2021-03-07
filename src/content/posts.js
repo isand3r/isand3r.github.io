@@ -24,7 +24,7 @@ export default function posts () {
     },
     {
       title: 'Today I read: "Operation Market Garden"',
-      body: <div><a href="https://en.wikipedia.org/wiki/Operation_Market_Garden"/></div>,
+      body: <div><a href="https://en.wikipedia.org/wiki/Operation_Market_Garden">wikipedia</a></div>,
       date: 'March 6, 2021',
       tags: ['link', 'reading']
     }
