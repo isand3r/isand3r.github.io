@@ -14,7 +14,7 @@ function Blog (props) {
     <div>
       <Header/>
       <div className={classes.toolbar}/>
-      <Posts />
+      <Posts/>
       <Footer/>
     </div>
   )
