@@ -13,6 +13,21 @@ a {
   font-family: monospace;
 }
 
+.container {
+  width: 99%;
+}
+
+.qr {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+
+.qr:hover {
+  height: 400px;
+}
+
 .shell-cursor {
   background-color: white;
   height: 6rem;
@@ -39,7 +54,7 @@ button {
   background-color: rgb(90, 90, 243);
   margin-bottom: 1%;
   border: 0;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
 }
 
@@ -50,7 +65,7 @@ button {
 }
 
 .highlight {
-  color: rgb(89, 89, 243);
+  color: rgb(90, 90, 243);
 }
 
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design#responsive_typography */
@@ -64,6 +79,9 @@ button {
   .shell-cursor {
     height: 4rem;
     width: 2rem;
+  }
+  .qr{
+    height: 100px;
   }
 }
 
