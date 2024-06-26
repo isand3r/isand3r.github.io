@@ -93,6 +93,9 @@ button {
       background-color: white;
       color: black;
   }
+  .shell-cursor {
+      background-color: black;
+  }
 }
 
 /* Dark mode */
